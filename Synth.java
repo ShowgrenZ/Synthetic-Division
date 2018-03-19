@@ -78,6 +78,7 @@ class Synth {
 			double a1 = c1;
 			double a2 = c2+p1;
 			double a3 = c3+p2;
+			double f2 = Math.abs(f1);
 
 			if (r1 == 0){
 				System.out.println("New coefficients are: "+a1+"; "+a2+"; "+a3);
@@ -123,6 +124,7 @@ class Synth {
 			double a2 = c2+p1;
 			double a3 = c3+p2;
 			double a4 = c4+p3;
+			double f2 = Math.abs(f1);
 
 			if (r1 == 0){
 				System.out.println("New coefficients are: "+a1+"; "+a2+"; "+a3+"; "+a4);
@@ -173,6 +175,7 @@ class Synth {
 			double a3 = c3+p2;
 			double a4 = c4+p3;
 			double a5 = c5+p4;
+			double f2 = Math.abs(f1);
 
 			if (r1 == 0){
 				System.out.println("New coefficients are: "+a1+"; "+a2+"; "+a3+"; "+a4+"; "+a5);
@@ -228,6 +231,7 @@ class Synth {
 			double a4 = c4+p3;
 			double a5 = c5+p4;
 			double a6 = c6+p5;
+			double f2 = Math.abs(f1);
 
 			if (r1 == 0){
 				System.out.println("New coefficients are: "+a1+"; "+a2+"; "+a3+"; "+a4+"; "+a5+"; "+a6);
@@ -288,6 +292,7 @@ class Synth {
 			double a5 = c5+p4;
 			double a6 = c6+p5;
 			double a7 = c7+p6;
+			double f2 = Math.abs(f1);
 
 			if (r1 == 0){
 				System.out.println("New coefficients are: "+a1+"; "+a2+"; "+a3+"; "+a4+"; "+a5+"; "+a6+"; "+a7);
